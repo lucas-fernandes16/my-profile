@@ -1,0 +1,136 @@
+/* Color and fonts*/
+body {
+	background-color: rgb(25,25,25);
+	color: rgb(250, 250, 250);
+	font-family: 'Lora', serif;
+	font-size: 25px;
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 5px;
+	font-weight: 400;
+	text-align: center;
+}
+
+h1 {
+	color: whitesmoke;
+	font-size: 60px;
+}
+
+h2 {
+	color: darkgrey;
+	font-size: 40px;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+a:hover {
+	color: darkgrey;
+}
+
+/*Custom design with class */
+
+.img-circle {
+	border-radius: 50%;
+	width: 20%; 
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.card {
+	background: rgb(5, 5, 5);
+	border-top: 1px solid whitesmoke;
+	border-right: 1px solid whitesmoke;
+	border-left: 1px solid whitesmoke;
+	border-bottom: 1px solid whitesmoke;
+	border-radius: 5px;
+	text-align: center;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	margin-bottom: 15px;
+}
+
+.card-title {
+	background: rgb(5, 5, 5);
+	border-top: 1px solid whitesmoke;
+	border-right: 1px solid whitesmoke;
+	border-left: 1px solid whitesmoke;
+	border-bottom: 1px solid whitesmoke;
+	border-radius: 10px;
+	text-align: center;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	margin-bottom: 20px;
+}
+
+.btn-grey {
+	background-color: darkgrey;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-grey:hover {
+	color: black;
+}
+
+@media (max-width: 2000px) {
+  .container {
+    width: 1500px;
+    margin: auto;
+  }
+}
+@media (max-width: 1750px) {
+  .container {
+    width: 1250px;
+    margin: auto;
+  }
+}
+@media (max-width: 1500px) {
+  .container {
+    width: 1000px;
+    margin: auto;
+  }
+}
+@media (max-width: 1250px) {
+  .container {
+    width: 900px;
+    margin: auto;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 700px;
+    margin: auto;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    width: 600px;
+    margin: auto;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
+
+/* Design adjustments using id */
+#introduction p {
+	margin-bottom: 40px;
+}
